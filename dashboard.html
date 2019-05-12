@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+    <div class="grid">
+        <header class="header">
+          <i class="fas fa-bars header__menu"></i>
+          <div class="header__search">
+            <!-- <input class="header__input" placeholder="Search..." /> -->
+            <div class="header__teamlogo">
+                <img src="img/team_logo.png" width="80" height="80" alt=""> 
+                <span class="header__teamlogo--name">Logo</span>
+            </div>
+         </div>
+
+         <ul class="header__menulink">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Tournamnet</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul> 
+         
+          <div class="header__avatar">
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__list-item">
+                  <span class="dropdown__icon"><i class="far fa-user"></i></span>
+                  <span class="dropdown__title">my profile</span>
+                </li>
+                <li class="dropdown__list-item">
+                  <span class="dropdown__icon"><i class="fas fa-clipboard-list"></i></span>
+                  <span class="dropdown__title">my account</span>
+                </li>
+                <li class="dropdown__list-item">
+                  <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+                  <span class="dropdown__title">log out</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      
+        <aside class="sidenav">
+          <div class="sidenav__brand">
+            <i class="fab fa-steam sidenav__brand-icon"></i>
+            <a class="sidenav__brand-link" href="#">Dota<span class="text-light">Pro</span></a>
+            <i class="fas fa-times sidenav__brand-close"></i>
+          </div>
+          <div class="sidenav__profile">
+            <div class="sidenav__profile-avatar"></div>
+            <div class="sidenav__profile-title text-light">
+                <span class="sidenav__profile-title--name">Patiphan P</span>
+                <span class="sidenav__profile-title--id">ID: 1239128</span>
+                <span class="sidenav__profile-title--level">Level: 100</span>
+                <span class="sidenav__profile-title--exp">EXP: 2432</span>
+            </div>
+           </div>
+          <div class="row row--align-v-center row--align-h-center">
+            <ul class="navList">
+              <li class="navList__heading">Team name : OpenAI</li>
+              <li class="navList__heading">Current Coin : 1,897,898 <i class="fas fa-coins coin"></i></li>
+
+                <li>
+                <div class="navList__subheading row row--align-v-center">
+                  <span class="navList__subheading-icon"><i class="fas fa-flag"></i></span>
+                  <span class="navList__subheading-title">Team</span>
+                </div>
+                <ul class="subList subList--hidden">
+                  <li class="subList__item">medical</li>
+                  <li class="subList__item">vision</li>
+                  <li class="subList__item">dental</li>
+                </ul>
+              </li>
+              <li>
+                <div class="navList__subheading row row--align-v-center">
+                  <span class="navList__subheading-icon"><i class="fas fa-users"></i></span>
+                  <span class="navList__subheading-title">Friends</span>
+                </div>
+                <ul class="subList subList--hidden">
+                  <li class="subList__item">domestic</li>
+                  <li class="subList__item">foreign</li>
+                  <li class="subList__item">misc</li>
+                </ul>
+              </li>
+              <li>
+                <div class="navList__subheading row row--align-v-center">
+                  <span class="navList__subheading-icon"><i class="fas fa-bell"></i></span>
+                  <span class="navList__subheading-title">Notifications</span>
+                </div>
+                <ul class="subList subList--hidden">
+                  <li class="subList__item">current</li>
+                  <li class="subList__item">archives</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      
+        <main class="main">
+          <div class="main-header">
+            <div class="main-header__intro-wrapper">
+              <div class="main-header__welcome">
+                <div class="main-header__welcome-title text-light">Welcome, <strong>Patiphan</strong></div>
+                <div class="main-header__welcome-subtitle text-light">How are you today?</div>
+              </div>
+              <div class="quickview">
+                <div class="quickview__item">
+                  <div class="quickview__item-total">41</div>
+                  <div class="quickview__item-description">
+                    <i class="far fa-calendar-alt"></i>
+                    <span class="text-light">Events</span>
+                  </div>
+                </div>
+                <div class="quickview__item">
+                  <div class="quickview__item-total">64</div>
+                  <div class="quickview__item-description">
+                    <i class="far fa-comment"></i>
+                    <span class="text-light">Messages</span>
+                  </div>
+                </div>
+                <div class="quickview__item">
+                  <div class="quickview__item-total">27&deg;</div>
+                  <div class="quickview__item-description">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="text-light">Austin</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-overview">
+            <!-- <div class="overviewCard"> -->
+              <!-- <div class="overviewCard-icon overviewCard-icon--document"> -->
+                 <!-- <i class="far fa-file-alt"></i> -->
+              <!-- </div> -->
+              <!-- <div class="overviewCard-description"> -->
+                <!-- <h3 class="overviewCard-title text-light">New <strong>Document</strong></h3> -->
+                <!-- <p class="overviewCard-subtitle">Europe Trip</p> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="overviewCard"> -->
+              <!-- <div class="overviewCard-icon overviewCard-icon--calendar"> -->
+                 <!-- <i class="far fa-calendar-check"></i> -->
+              <!-- </div> -->
+              <!-- <div class="overviewCard-description"> -->
+                <!-- <h3 class="overviewCard-title text-light">Upcoming <strong>Event</strong></h3> -->
+                <!-- <p class="overviewCard-subtitle">Chili Cookoff</p> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="overviewCard"> -->
+              <!-- <div class="overviewCard-icon overviewCard-icon--mail"> -->
+                 <!-- <i class="far fa-envelope"></i> -->
+              <!-- </div> -->
+              <!-- <div class="overviewCard-description"> -->
+                <!-- <h3 class="overviewCard-title text-light">Recent <strong>Emails</strong></h3> -->
+                <!-- <p class="overviewCard-subtitle">+10</p> -->
+              <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="overviewCard"> -->
+              <!-- <div class="overviewCard-icon overviewCard-icon--photo"> -->
+                 <!-- <i class="far fa-file-image"></i> -->
+              <!-- </div> -->
+              <!-- <div class="overviewCard-description"> -->
+                <!-- <h3 class="overviewCard-title text-light">New <strong>Album</strong></h3> -->
+                <!-- <p class="overviewCard-subtitle">House Concert</p> -->
+              <!-- </div> -->
+            <!-- </div> -->
+          </div> <!-- /.main__overview -->
+          <div class="main__tabs">
+                <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Status</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">History</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Exchange</button>
+                </div>
+                
+                <div id="London" class="tabcontent">
+                <h3>Status</h3>
+                <p>London is the capital city of England.</p>
+                <img src="img/status.jpg" width="100%" alt="">
+                </div>
+                
+                <div id="Paris" class="tabcontent">
+                <div class="card">
+                        <div class="card__header">
+                          <div class="card__header-title text-light">View <strong>History</strong>
+                            <a href="#" class="card__header-link text-bold">View All</a>
+                          </div>
+                          <div class="settings">
+                            <div class="settings__block"><i class="fas fa-edit"></i></div>
+                            <div class="settings__block"><i class="fas fa-cog"></i></div>
+                          </div>
+                        </div>
+                        <div class="card__main">
+                          <div class="card__row">
+                            <div class="card__icon"><i class="fas fa-gift"></i></div>
+                            <div class="card__time">
+                              <div>today</div>
+                            </div>
+                            <div class="card__detail">
+                              <div class="card__source text-bold">Jonathan G</div>
+                              <div class="card__description">Going away party at 8:30pm. Bring a friend!</div>
+                              <div class="card__note">1404 Gibson St</div>
+                            </div>
+                          </div>
+                          <div class="card__row">
+                            <div class="card__icon"><i class="fas fa-plane"></i></div>
+                            <div class="card__time">
+                              <div>Tuesday</div>
+                            </div>
+                            <div class="card__detail">
+                              <div class="card__source text-bold">Matthew H</div>
+                              <div class="card__description">Flying to Bora Bora at 4:30pm</div>
+                              <div class="card__note">Delta, Gate 27B</div>
+                            </div>
+                          </div>
+                          <div class="card__row">
+                            <div class="card__icon"><i class="fas fa-book"></i></div>
+                            <div class="card__time">
+                              <div>Thursday</div>
+                            </div>
+                            <div class="card__detail">
+                              <div class="card__source text-bold">National Institute of Science</div>
+                              <div class="card__description">Join the institute for an in-depth look at Stephen Hawking</div>
+                              <div class="card__note">7:30pm, Carnegie Center for Science</div>
+                            </div>
+                          </div>
+                          <div class="card__row">
+                            <div class="card__icon"><i class="fas fa-heart"></i></div>
+                            <div class="card__time">
+                              <div>Friday</div>
+                            </div>
+                            <div class="card__detail">
+                              <div class="card__source text-bold">24th Annual Heart Ball</div>
+                              <div class="card__description">Join us and contribute to your favorite local charity.</div>
+                              <div class="card__note">6:45pm, Austin Convention Ctr</div>
+                            </div>
+                          </div>
+                          <div class="card__row">
+                            <div class="card__icon"><i class="fas fa-heart"></i></div>
+                            <div class="card__time">
+                              <div>Saturday</div>
+                            </div>
+                            <div class="card__detail">
+                              <div class="card__source text-bold">Little Rock Air Show</div>
+                              <div class="card__description">See the Blue Angels fly with roaring thunder</div>
+                              <div class="card__note">11:00pm, Jacksonville Airforce Base</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+                <div id="Tokyo" class="tabcontent">
+                <h3>Exchange</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla laudantium, aut eveniet nihil quas consequatur veniam ipsum facilis labore recusandae facere, laboriosam accusantium impedit corrupti, incidunt soluta placeat quasi! Deserunt.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla laudantium, aut eveniet nihil quas consequatur veniam ipsum facilis labore recusandae facere, laboriosam accusantium impedit corrupti, incidunt soluta placeat quasi! Deserunt.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla laudantium, aut eveniet nihil quas consequatur veniam ipsum facilis labore recusandae facere, laboriosam accusantium impedit corrupti, incidunt soluta placeat quasi! Deserunt.</p>
+                </div>
+            </div>
+
+             
+      
+           
+        </main>
+      
+        <footer class="footer">
+          <p><span class="footer__copyright">&copy;</span> 2018 MTH</p>
+          <p>Crafted with <i class="fas fa-heart footer__icon"></i> by <a href="https://www.linkedin.com/in/matt-holland/" target="_blank" class="footer__signature">Matt H</a></p>
+        </footer>
+      </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@import '_partials/reset.scss';
+@import '_partials/index.scss';
+@import '_partials/dashboard.scss';
+@import '_partials/signin.scss';
+@import '_partials/signup.scss';
+@import '_partials/forget.scss';
+
+.container {
+    width: 98%;
+    max-width: 960px;
+    margin: 0 auto;
+}

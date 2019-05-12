@@ -1,0 +1,97 @@
+.signup {
+    margin: 3em 0;
+}
+
+.signupform {
+    padding: 3em;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    .signup__name {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+    input {
+        width: 80%;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #eee;
+        margin: 0 auto;
+        padding: 1.5em 2em;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+
+    span {
+        font-size: .8em;
+        color: #666;
+    }
+ 
+
+    .signup__check {
+        padding: 2em 0;
+        input {
+            width: 10%;
+        }
+    }
+
+    .signup_button {
+        margin-bottom: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &--submit input {
+            background: none;
+            color: #fff;
+            border-radius: 5px;
+            background-color: #4b9c41;
+            cursor: pointer;
+        }
+
+        &--faster {
+            text-align: left;
+            display: grid;
+            grid-template-columns: 1fr;
+
+            &-steam {
+                margin-top: 1em;
+                background: #333;
+                padding: .5em 1em;
+                border-radius: 5px;
+                color: #fff;
+                font-size: .8em;
+            }
+
+            &-twitch {
+                margin-top: 1em;
+                background: #783ba5;
+                padding: .5em 1em;
+                border-radius: 5px;
+                color: #fff;
+                font-size: .8em;
+            }
+        }
+    }
+
+    .already {
+        font-size: 1.2em;
+        color: #666;
+    }
+
+    p {
+        font-size: .8em;
+        color: #666;
+    }
+
+}

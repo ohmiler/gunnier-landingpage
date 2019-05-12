@@ -1,0 +1,70 @@
+.signin {
+    margin: 3em 0;
+}
+
+.signinform {
+    padding: 3em;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+    span {
+        display: inline-block;
+        color: #666;
+        margin-bottom: 2em;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 60%;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #eee;
+        margin: 0 auto;
+        padding: .5em 2em;
+        display: block;
+    }
+
+    .signin__remem {
+        font-size: .8em;
+        width: 70%;
+        justify-content: space-between;
+        margin: 0 auto;
+        display: flex;
+
+        &--forgot a {
+            color: #666;
+        }
+    }
+
+    .signin__button {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+
+        &--login, &--cancel {
+            background-color: #333;
+            padding: 1em 3em;
+            border-radius: 5px;
+
+            input, a {
+                color: #fff;
+                background: none;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    p {
+        font-size: .8em;
+        color: #666;
+    }
+}
